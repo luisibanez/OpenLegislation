@@ -96,6 +96,11 @@ if (billkey == null)
 <div style="text-align:left;width:500px;">
 <h2 class="homeText">Browse, search and share legislative<br/>
 information from the New York State Senate</h2>
+<br />
+<h3>how to use</h3>
+<h3>asd</h3>
+<h4>test again</h4>
+<h5>again</h5>
 </div>
 
 <div style="text-align:left;width:500px;margin-top:20px;">

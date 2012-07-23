@@ -82,7 +82,7 @@
    		 	<div id="logobox"><a href="<%=appPath%>/"><img src="<%=appPath%>/img/openwordlogo.gif" /></a></div>
 				<div style="font-size:9pt;line-height:16px;">
 
-					<div style="float:left;">
+					<div id="headerLinks">
 						<%if (searchType.startsWith("bill")||searchType.equals("search")||searchType.equals("sponsor")||searchType.equals("committee")){ %>
 							<a href="<%=appPath%>/bills/"  class="linkActivated" title="Browse and search Senate and Assembly bills by number, keyword, sponsor and more">Bills</a>
 						<%}else{ %>
@@ -112,7 +112,7 @@
 						</form>
 					</div>
 
-					<div style="margin-left:10px;border-left:1px solid #aaa;height:50px;padding-left:10px;float:left;">
+					<div id="notifiedOfUpdates">
 						Be notified of updates to this page:<br/>
 						<form style="margin-bottom:0;" action="http://www.changedetection.com/detect.html" method="get" target="ChangeDetectionWiz">
 							<input style="width:100px;" TYPE="TEXT" NAME="email"  value="enter email">
@@ -132,6 +132,6 @@
 						 being said about legislation
 					</div>
 			   </div>
-			   <br style="clear:left;"/>
+			   <br id="clearLeft" />
    
    

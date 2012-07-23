@@ -78,7 +78,7 @@ margin:3px;
  
  %> 
  </div>
-  <br style="clear:both;"/>
+  <br id="clearBoth"/>
   
 
 

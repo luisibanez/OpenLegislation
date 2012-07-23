@@ -17,10 +17,10 @@
 <br />
 <h2><%=meeting.getCommitteeName()%> - <%=df.format(meeting.getMeetingDateTime())%></h2>
 
-<div style="float: right">
+<div id="shareThis">
 	<script type="text/javascript" src="http://w.sharethis.com/button/sharethis.js#publisher=51a57fb0-3a12-4a9e-8dd0-2caebc74d677&amp;type=website"></script>
 </div>
-<br style="clear: both;" />
+<br id="clearBoth" />
 <div id="content">
 	<%
 		String chair = meeting.getCommitteeChair();
@@ -60,7 +60,7 @@
 								
 							<div class="billSummary" onmouseover="this.style.backgroundColor='#FFFFCC'" onmouseout="this.style.backgroundColor='#FFFFFF'" onclick="location.href='/legislation/bill/<%=bill.getSenateBillNo()%>'">
 								<a href="/legislation/bill/<%=bill.getSenateBillNo()%>"><%=bill.getSenateBillNo()%>: <%=bill.getTitle()%></a>
-								<div style="font-size:90%;color:#777777;">
+								<div id="billSummary">
 							
 									<%=bill.getSummary() %> /
 							 

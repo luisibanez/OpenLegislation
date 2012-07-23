@@ -460,3 +460,69 @@ background:#FFFFCC;
 color:#FFFFFF;
 }
 
+
+#printBill
+{
+	float:right;
+}
+
+#shareThis
+{
+	float:right;
+}
+
+#clearBoth
+{
+	clear: both;
+}
+
+#clearLeft
+{
+	clear:left;
+}
+
+#billSummary
+{
+	font-size:90%;
+	color:#777777;
+}
+
+#titleLeft
+{
+	 float:left;
+}
+
+#feeds
+{
+	float:right;
+}
+
+#recentComments
+{
+	float:left;
+	width:700px;
+}
+
+#popularThreads
+{
+	float:left;
+	width:200px;
+	margin-left:20px;
+}
+
+#notifiedOfUpdates
+{
+	margin-left:10px;
+	border-left:1px solid #aaa;
+	height:50px;
+	padding-left:10px;
+	float:left;
+}
+
+#headerLinks
+{
+	float:left;
+}
+
+}
+}

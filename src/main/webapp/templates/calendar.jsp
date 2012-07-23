@@ -15,11 +15,11 @@
 
 <h2>Calendar no. <%=calendar.getNo()%> (<%=calendar.getType()%>) / Year: <%=calendar.getYear()%> / Session: <%=calendar.getSessionYear()%> - <%=calendar.getSessionYear() + 1%></h2>
 
-<div style="float:right;">
+<div id="shareThis">
 		<script type="text/javascript"
 			src="http://w.sharethis.com/button/sharethis.js#publisher=51a57fb0-3a12-4a9e-8dd0-2caebc74d677&amp;type=website"></script>
 </div>
-<br style="clear: both;" />
+<br id="clearBoth" />
 <div id="content">
 	
 	<%

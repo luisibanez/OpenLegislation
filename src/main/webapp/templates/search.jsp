@@ -78,11 +78,11 @@ if (total > endIdx)
 }
 	
 %>
-<div style="float:left">
+<div id="titleLeft">
 <h4><%=type.toUpperCase()%> SEARCH RESULTS</h4>
 </div>
 
-<div style="float:right">
+<div id="feeds">
 <% String encodedTerm = java.net.URLEncoder.encode(term,"UTF-8"); %>
 Formats:
 <a href="/legislation/api/atom/search/<%=encodedTerm%>/">ATOM</a>,
@@ -90,7 +90,7 @@ Formats:
 <a href="/legislation/api/json/search/<%=encodedTerm%>/<%=pageIdx%>/<%=pageSize%>">JSON</a>,
 <a href="/legislation/api/xml/search/<%=encodedTerm%>/<%=pageIdx%>/<%=pageSize%>">XML</a>
 </div>
-<br style="clear:both;"/>
+<br id="clearBoth"/>
  <div id="content">
  <%
  	if (resultCount>0){
