@@ -197,9 +197,9 @@ String resultTitle = null;
 String resultPath = appPath + "/" + contentType + "/" + contentId;
 
  %>
- <div class="billSummary" onmouseover="this.style.backgroundColor='#FFFFCC'" onmouseout="this.style.backgroundColor='#FFFFFF'" onclick="location.href='<%=resultPath%>'">
-<a href="<%=resultPath%>"><%=senateType%>: <%=resultTitle%></a>
-<div style="font-size:90%;color:#777777;">
+  <div class="billSummary"  onclick="location.href='<%=resultPath%>'">
+	<a href="<%=resultPath%>"><%=senateType%>: <%=resultTitle%></a>
+<div  >
 
 
  <%if (sresult.getSummary()!=null && sresult.getSummary().length() > 0){ %>
