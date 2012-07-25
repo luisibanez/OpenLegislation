@@ -7,26 +7,7 @@
 		title = "Open Legislation Service";
 	title += " - New York State Senate";
 		
-	String term = (String)request.getAttribute("term");
 	
-	if (term == null)
-		term = "";
-	else
-	{
-		term = term.replaceAll("\"","&quot;");
-	}
-	
-	String search = (String)request.getAttribute("search");
-	if(search == null) {
-		search = "";
-	}
-	else {
-		search = search.replaceAll("\"","&quot;");
-	}
-	
-	String searchType = (String)request.getAttribute("type");
-	if (searchType == null)
-		searchType = "";
 %>
 
 <html>

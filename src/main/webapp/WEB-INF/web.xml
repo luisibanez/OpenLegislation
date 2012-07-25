@@ -29,6 +29,14 @@
 		<servlet-class>gov.nysenate.openleg.api.servlets.ReportServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>/mockups/css/*</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>/mockups/js/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
 		<servlet-name>ApiServlet2_0</servlet-name>
 		<url-pattern>/api/2.0/*</url-pattern>
 	</servlet-mapping>
