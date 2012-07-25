@@ -463,9 +463,9 @@ body{
 	margin-top:130px;
 	background-color: #ffffff;
 }
-.billSummary{
-	border-top:1px solid #ccc;
-	margin-top:10px;
-	padding:10px;
-	
+.pagination{
+	margin:0;
+}
+#search_head{
+	margin-bottom:20px;
 }

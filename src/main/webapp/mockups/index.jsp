@@ -48,7 +48,7 @@
 	</head>
 	<body>  
 	
-		<div class="navbar navbar-fixed-top">
+<div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
         <div class=' '>
@@ -91,7 +91,7 @@
 	
 	<!-- edit this xxx.jsp tag to load the other pages for now -->
 	
-	<jsp:include page="/mockups/templates/home.jsp" />
+	<jsp:include page="/mockups/templates/search.jsp" />
 	
 	<div class=''><hr/></div>
 
