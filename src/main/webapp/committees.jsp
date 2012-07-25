@@ -7,7 +7,7 @@
 	<jsp:param name="title" value="Committees"/>
 </jsp:include>
 <h2>Senate Committees</h2>
-
+<!-- 
 <style>
 #committees {
 	list-style-type: none;
@@ -42,7 +42,7 @@
 td {
 	text-indent: 0.0em;  
 }
-</style>
+</style> -->
 <div id="content">
 	<h3>Standing Committees</h3>
 	<ul id="committees">

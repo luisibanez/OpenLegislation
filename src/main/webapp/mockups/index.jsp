@@ -96,31 +96,50 @@
 	<div class=''><hr/></div>
 
 	<div id="footer" class='row'>
-		<div class='span3'>
-			<h4>OpenLegeslation</h4>
+		<div class='span4'>
+			<h4>OpenLegislation</h4>
+			<h5>Bills</h5>
+			<h5>Calendars</h5>
+			<h5>Meetings</h5>
+			<h5>Transcripts</h5>
+			<h5>Actions</h5>
+			<h5>Votes</h5>
+			
 		
 		</div>
-		<div class='span3'>
+		<div class='span4'>
 			<h4>Connect</h4>
+			<h5>Comments</h5>
+			<h5>Feedback</h5>
+			<h5>Mobile Access</h5>
+			<h5>Developers</h5>
+			<h5>BillBuzz</h5>
 		
 		</div>
-		<div class='span3'>
+		<div class='span4'>
 			<h4>Nysenate.gov</h4>
+			<h5>Senators</h5>
+			<h5>Committees</h5>
 		
 		</div>
-		<div class='span3'>
-			<h4>last title</h4>
+		<!--<div class='span3'>
+			
 		
-		</div>
+		</div>-->
 	</div>
 	<hr/>
 	<div class='row'>
-		<div class='span8'>
+		<div class='span12'>
+		
 			<p>
-				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img class="cc-logo" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/88x31.png" align='left' /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.<br /> Permissions beyond the scope of this license are available at <a cc="http://creativecommons.org/ns#" href="http://www.nysenate.gov/copyright-policy" rel="morePermissions">http://www.nysenate.gov/copyright-policy</a>.
+				<small><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img class="cc-logo" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/88x31.png" align='left' /></a>
+				This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.
+				
+				
+				Permissions beyond the scope of this license are available at <a cc="http://creativecommons.org/ns#" href="http://www.nysenate.gov/copyright-policy" rel="morePermissions">http://www.nysenate.gov/copyright-policy</a>.
+	 			The software and services provided under this site are offered under the BSD License and the GPL v3 License.
 	 		</p>
-	 		<p>The software and services provided under this site are offered under the BSD License and the GPL v3 License.<br/></p>
-		</div>
+		</small></div>
 	</div>
 </div>
 	</body>
