@@ -469,3 +469,16 @@ body{
 #search_head{
 	margin-bottom:20px;
 }
+
+
+
+del{
+	color:red;
+}
+add{
+	color:green;
+}
+#table_of_contents{
+	border-top:1px solid #e1e1e1;
+	padding-top:10px;
+}
