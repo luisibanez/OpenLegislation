@@ -3,7 +3,7 @@
 <jsp:include page="/header.jsp">
 	<jsp:param name="title" value="Open Legislation - Advanced Search - NY Senate"/>
 </jsp:include>
-
+<!-- 
 <style>
 #advsearchbox
 {
@@ -54,7 +54,7 @@ clear:left;
 {
 text-align:center;
 }
-</style>
+</style> -->
  <div id="content">
  
 		<center>

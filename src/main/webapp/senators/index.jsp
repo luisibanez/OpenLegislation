@@ -7,6 +7,7 @@
 <jsp:include page="/header.jsp">
 	<jsp:param name="title" value="Senators"/>
 </jsp:include>
+<!-- 
 <style>
 .senatorColumn
 {
@@ -23,7 +24,7 @@ font-size:14px;
 line-height:16px;
 margin:3px;
 }
-</style>
+</style>-->
 
 	<h2>Senators (2011-2012 Session)</h2>
  <div id="content">

@@ -1,11 +1,9 @@
 <div class="page-header">
-    <h1>Page 1  <small>(Results 1 - 20 of 25650)</small></h1>
- </div>
- <div id='search_head' class='span12'>
- <div class='row'>
-	<div class='span4'>
-	<div class="btn-group">
-	    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    <div style="float:left;">
+    	<h2>Page 1  <small>(Results 1 - 20 of 25650)</small></h2>
+    	</div>
+    <div style="float:right;">
+     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 	    Order by:     
 	    <span class="caret"></span>
 	    </a>
@@ -15,8 +13,11 @@
 	     <li><a href="/legislation/search/otype%3Abill+AND+%28year%3A2011+OR+when%3A%5B1293840000968+TO+1356998399968%5D%29+AND+active%3Atrue?sort=committee&amp;sortOrder=false">Committee</a></li>
 	     <li><a href="/legislation/search/otype%3Abill+AND+%28year%3A2011+OR+when%3A%5B1293840000968+TO+1356998399968%5D%29+AND+active%3Atrue?sort=oid&amp;sortOrder=false">Best Match</a></li>
 	    </ul>
-	</div></div>
-	<div class='span4'>
+	    </div>
+	    <br />
+ </div>
+ <div id='search_head' class='span12'>
+ <div class='row' style="float:left;">
 	<div class="pagination">
 	        <ul>
 	          <li class="disabled"><a href="#">«</a></li>
@@ -24,20 +25,27 @@
 	          <li><a href="#">2</a></li>
 	          <li><a href="#">3</a></li>
 	          <li><a href="#">4</a></li>
+	          <li><a href="#">5</a></li>
+	          <li><a href="#">6</a></li>
+	          <li><a href="#">7</a></li>
 	          <li><a href="#">»</a></li>
 	        </ul>
-	</div></div>
-</div></div>
+	</div>
+</div>
+
+</div>
 
 <div id='results' class="row">
   
 
 <div class="result span12" >
  <a href="/legislation/bill/S21-2011">BILL S21-2011: Relates to payment of independent contractors
-  Relates to payment of independent contractors and authorizes the department of labor to investigate complaints, make claims for compensation, assess liquid damages, civil penalties and criminal penalties, and authorizes the award of attorney fees and liquidated damages. /
+  Relates to payment of independent contractors and authorizes the department of labor to investigate complaints, make claims for compensation, assess liquid damages, civil penalties and criminal penalties, and authorizes the award of attorney fees and liquidated damages.
  </a>
+ <div>
   Sponsor: <a class="sublink" href="/legislation/sponsor/SQUADRON">SQUADRON</a>
-  Committee: <a class="sublink" href="/legislation/committee/LABOR">LABOR</a>
+  / Committee: <a class="sublink" href="/legislation/committee/LABOR">LABOR</a>
+  </div>
   <hr/>
  </div>
 
@@ -45,20 +53,22 @@
 <div class="result span12">
 <a href="/legislation/bill/S22-2011">BILL S22-2011: Provides that the income level for the requirement to file a personal income tax return shall be set by regulation</a>
  <div >
-Provides that the income level for the requirement to file a personal income tax return shall be the dollar amount of the New York standard deduction. /
-Sponsor: <a class="sublink" href="/legislation/sponsor/SQUADRON">SQUADRON</a>
-Committee: <a class="sublink" href="/legislation/committee/WAYS-AND-MEANS">WAYS AND MEANS</a>
+ Sponsor: <a class="sublink" href="/legislation/sponsor/SQUADRON">SQUADRON</a> / Committee: <a class="sublink" href="/legislation/committee/WAYS-AND-MEANS">WAYS AND MEANS</a>
+ <br />
+Provides that the income level for the requirement to file a personal income tax return shall be the dollar amount of the New York standard deduction.
+
 </div>
 <hr/>
 </div>
 
  
- <div  class="result span12">
+ <div class="result span12">
 <a href="/legislation/bill/S23-2011">BILL S23-2011: Relates to the sale of tonic water, bitters and maraschino cherries at liquor stores</a>
 <div >
-Relates to the sale of tonic water, bitters and maraschino cherries at liquor stores. /
 Sponsor: <a class="sublink" href="/legislation/sponsor/SQUADRON">SQUADRON</a>
-Committee: <a class="sublink" href="/legislation/committee/COMMERCE,-ECONOMIC-DEVELOPMENT-AND-SMALL-BUSINESS">COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</a>
+/ Committee: <a class="sublink" href="/legislation/committee/COMMERCE,-ECONOMIC-DEVELOPMENT-AND-SMALL-BUSINESS">COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</a>
+<br />
+Relates to the sale of tonic water, bitters and maraschino cherries at liquor stores. 
  </div>
   <hr/>
 </div>
@@ -66,9 +76,12 @@ Committee: <a class="sublink" href="/legislation/committee/COMMERCE,-ECONOMIC-DE
  <div  class="result span12">
 <a href="/legislation/bill/S24-2011">BILL S24-2011: Requires certification notice to tenant when rent is paid by human resources administration</a>
 <div >
-Provides that whenever rent is paid by NYC human resources administration on behalf of a tenant on public assistance, the department of housing preservation shall send a certification of payment to such tenant. /
+
 Sponsor: <a class="sublink" href="/legislation/sponsor/SQUADRON">SQUADRON</a>
-Committee: <a class="sublink" href="/legislation/committee/CITIES">CITIES</a>
+/ Committee: <a class="sublink" href="/legislation/committee/CITIES">CITIES</a>
+<br />
+Provides that whenever rent is paid by NYC human resources administration on behalf of a tenant on public assistance, the department of housing preservation shall send a certification of payment to such tenant. 
+
 </div>
  <hr/>
 </div>
@@ -76,13 +89,14 @@ Committee: <a class="sublink" href="/legislation/committee/CITIES">CITIES</a>
 <div  class="result span12">
 <a href="/legislation/bill/S25-2011">BILL S25-2011: Relates to making the provisions governing liquor licenses consistent with respect to public interest factors</a>
 <div >
-Relates to making the provisions governing liquor licenses consistent with respect to public interest factors. /
 Sponsor: <a class="sublink" href="/legislation/sponsor/SQUADRON">SQUADRON</a>
-Committee: <a class="sublink" href="/legislation/committee/COMMERCE,-ECONOMIC-DEVELOPMENT-AND-SMALL-BUSINESS">COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</a>
- </div>
+/ Committee: <a class="sublink" href="/legislation/committee/CITIES">CITIES</a>
+<br />
+Relates to making the provisions governing liquor licenses consistent with respect to public interest factors. 
+</div>
   <hr/>
 </div>
-
+<!-- 
 <div  class="result">
  <a href="/legislation/bill/S26-2011">BILL S26-2011: Relates to the procedure for filling a vacancy in the office of state senator or in the office of member of assembly</a>
 <div >
@@ -237,11 +251,11 @@ Committee: <a class="sublink" href="/legislation/committee/ELECTIONS">ELECTIONS<
  </div>
   <hr/>
 </div>
-
+-->
 </div> <!-- end of results -->
- 
+ <!-- 
  <div>
 <div>
 Page 1 (Results 1 - 20 of 25650)
 <a href="/legislation/bills/2">next &gt;</a>
-</div>
+</div>-->

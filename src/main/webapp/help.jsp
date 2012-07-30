@@ -8,12 +8,13 @@ if (term == null)
         
 %>
 <jsp:include page="/header.jsp"/>
+<!-- 
 <style>
 li 
 {
 margin-bottom:9px;
 }
-</style>
+</style> -->
  <div id="content">
 <p>
 Open Legislation offers a variety of ways to search and browse legislative information.

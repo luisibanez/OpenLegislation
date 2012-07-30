@@ -181,7 +181,7 @@
 	}
 %>
     
-<div style="float:left;">
+<div id="billVersionList">
     
     <%
         	if (bill.getSameAs()!=null){
@@ -245,7 +245,7 @@
 	<a href="#discuss">Read or Leave Comments</a>
 </div>
 
-<br style="clear:both;"/>
+<br id="clearBoth"/>
 
 <div id="content">
 
