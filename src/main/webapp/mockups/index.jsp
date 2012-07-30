@@ -91,7 +91,7 @@
 	
 	<!-- edit this xxx.jsp tag to load the other pages for now -->
 	
-	<jsp:include page="/mockups/templates/search.jsp" />
+	<jsp:include page="/mockups/templates/transcript.jsp" />
 	
 	<div class=''><hr/></div>
 
