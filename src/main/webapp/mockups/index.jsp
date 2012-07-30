@@ -57,7 +57,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class='brand' href="<%=appPath%>/"><img src="<%=appPath%>/mockups/img/openleglogo.gif" /></a> 
+            
+            <div class="span10">
+            	<a class='brand' href="<%=appPath%>/"><img src="<%=appPath%>/mockups/img/openleglogo.gif" /></a> 
+            	<div style="float:right;">
+            	<br>
+            		<a><b>FAQ</b></a>
+            	</div>
+            </div>
          		 <div class="nav-collapse collapse">
             <ul class="nav">
             <%if (searchType.startsWith("bill")||searchType.equals("search")||searchType.equals("sponsor")||searchType.equals("committee")){ %>
@@ -91,7 +98,7 @@
 	
 	<!-- edit this xxx.jsp tag to load the other pages for now -->
 	
-	<jsp:include page="/mockups/templates/transcript.jsp" />
+	<jsp:include page="/mockups/templates/calendar.jsp" />
 	
 	<div class=''><hr/></div>
 

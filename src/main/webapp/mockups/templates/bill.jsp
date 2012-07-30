@@ -18,6 +18,10 @@
 		</div>	
 		<div class='span4'>
 		  	<b>Same as: </b> <a>Versions: S21-2011</a>
+		  	<br /><br />
+		  	<a>Print HTML Page</a> / <a>Print Original Bill Format</a>
+		  	<br />
+		  	<a>ShareThis</a> / <a>Read or Leave Comments</a>
 		</div>
 		<div class='span12'>
 		  	<hr>

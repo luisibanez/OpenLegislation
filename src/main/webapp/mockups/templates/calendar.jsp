@@ -1,12 +1,49 @@
 <div class="page-header">
     <h1> Calendar Date: <small>Wed, Jun 20, 2012</small></h1>
  </div>
+ 
+ 
   
 	
 <div class="calendar">
+
+<div class="row">
+<div class="span2">
+<b>Version</b>
+<br>
+<a>Active List 60</a>
+<br>
+<a>Active List 60-1</a>
+<br>
+<a>Active List 60-2</a>
+</div>
+<div class="span2">
+<b>Published</b>
+<br>
+Jun 19, 8:03 PM
+<br>
+Jun 20, 10:13 AM
+<br>
+Jun 20, 8:32 PM
+</div>
+<div class="span2">
+<b>Items</b>
+<br>
+25
+<br>
+8
+<br>
+13
+</div>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+<hr>
 				
 				 <h4>Active List 60 published Jun 19, 8:03PM:</h4> 
-	
 						<div class="billSummary">
 							<ul>
 							
@@ -496,6 +533,8 @@
 						</div>
 					</div>
 				<div id="formatBox"><b>Formats:</b>
-				<a href="/legislation/api/1.0/json/calendar/active-06-20-2012">JSON</a>
+				<br>
+				<a href="/legislation/api/1.0/json/calendar/active-06-20-2012">JSON</a> / 
+				<br>
 				<a href="/legislation/api/1.0/xml/calendar/active-06-20-2012">XML</a></div>
 		

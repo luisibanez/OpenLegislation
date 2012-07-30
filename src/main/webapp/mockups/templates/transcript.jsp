@@ -6,14 +6,18 @@
 <div class="transcript">
 
 
-	<b>Location: ALBANY, NEW YORK</b> /
-	<b>Session: REGULAR SESSION</b>
+	<b>Location</b>: ALBANY, NEW YORK
+	<br>
+	<b>Session</b>: REGULAR SESSION
 	<br/>
 	
 	<div class="blockFormats">
+	<div style="float:right;"><a><b>Share This</b></a></div>
 		<b>Formats:</b> 
 		<a href="/legislation/api/1.0/xml/transcript/regular-session-05-21-2012">XML</a>,
 		<a href="/legislation/api/1.0/json/transcript/regular-session-05-21-2012">JSON</a>
+		
+		
 	</div>
 	<hr>
 	<br/>
