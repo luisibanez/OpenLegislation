@@ -43,62 +43,73 @@
 		
 		<script type="text/javascript" src="<%=appPath%>/mockups/js/jquery.js"></script>
 	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/bootstrap.js"></script>
+	 	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/app.js"></script>
 	 
 
 	</head>
 	<body>  
-	
-<div class="navbar navbar-fixed-top">
+	 <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-        <div class=' '>
-          <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
-            
-            <div class="span10">
-            	<a class='brand' href="<%=appPath%>/"><img src="<%=appPath%>/mockups/img/openleglogo.gif" /></a> 
-            	<div style="float:right;">
-            	<br>
-            		<a><b>FAQ</b></a>
-            	</div>
-            </div>
-         		 <div class="nav-collapse collapse">
+          </a>
+            <a class='brand' href="<%=appPath%>/"><img src="<%=appPath%>/mockups/img/open-leg-logo_mid_Web.png" /></a> 
+          <div class="nav-collapse">
             <ul class="nav">
-            <%if (searchType.startsWith("bill")||searchType.equals("search")||searchType.equals("sponsor")||searchType.equals("committee")){ %>
-							 <li  class="active" ><a href="<%=appPath%>/bills/" title="Browse and search Senate and Assembly bills by number, keyword, sponsor and more">Bills</a></li>
-						<%}else{ %>
-							<li class=""><a href="<%=appPath%>/bills/" title="Browse and search Senate and Assembly bills by number, keyword, sponsor and more">Bills</a></li>
-						<%} %>
-						<li <%if (searchType.startsWith("calendar")){%>class="active"<%} %> ><a href="<%=appPath%>/calendars/" title="View recent and search floor calendars and active lists by number or date (i.e. 11/07/2009)">Calendars</a></li> 						
-						<li <%if (searchType.startsWith("meeting")){%>class="active"<%} %> ><a href="<%=appPath%>/meetings/" title="View upcoming and recent committee meetings, and search by committee, chairperson, location, date (i.e. 11/07/2009) and more.">Meetings</a>
- 			 			<li <%if (searchType.startsWith("transcript")){%>class="active"<%} %>><a href="<%=appPath%>/transcripts/"  title="View and search Senate floor full text transcripts">Transcripts</a></li>	 
-						<li <%if (searchType.startsWith("action")){%>class="active"<%} %>><a href="<%=appPath%>/actions/" title="View and filter Floor Actions on Bills from the Floor of the Senate">Actions</a></li>
- 						<li <%if (searchType.startsWith("vote")){%>class="active"<%} %>><a href="<%=appPath%>/votes" title="Recent committee and floor votes on Senate bills">Votes</a></li>
-						<% if(searchType.matches("(sponsor|bill|calendar|meeting|transcript|action|vote).*?")) { term = ""; } %>
-							<li class=""><a href="<%=appPath%>/senators">Sponsor</a></li>
-							<li class=""><a href="<%=appPath%>/committees">Committee</a></li>
-					</ul>
-					 <form method="get" action="<%=appPath%>/search/" class="navbar-search pull-left">
-            			<input type="text" id="txtSearchBox" placeholder="Search" class="search-query span2" name="search" value="<%=search%>" autocomplete="off">	
-						<input type="hidden" name="searchType" value="<%=searchType%>">	
-						<input type="submit" value="Search"/>
-						<a href="<%=appPath%>/advanced/">Advanced</a>
-						
-          			</form>
- 					<div id="quickresult" class="quickresult-header"></div>
+                <%if (searchType.startsWith("bill")||searchType.equals("search")||searchType.equals("sponsor")||searchType.equals("committee")){ %>
+<li class="active" ><a href="<%=appPath%>/bills/" title="Browse and search Senate and Assembly bills by number, keyword, sponsor and more">Bills</a></li>
+<%}else{ %>
+<li class=""><a href="<%=appPath%>/bills/" title="Browse and search Senate and Assembly bills by number, keyword, sponsor and more">Bills</a></li>
+<%} %>
+<li <%if (searchType.startsWith("calendar")){%>class="active"<%} %> ><a href="<%=appPath%>/calendars/" title="View recent and search floor calendars and active lists by number or date (i.e. 11/07/2009)">Calendars</a></li>
+<li <%if (searchType.startsWith("meeting")){%>class="active"<%} %> ><a href="<%=appPath%>/meetings/" title="View upcoming and recent committee meetings, and search by committee, chairperson, location, date (i.e. 11/07/2009) and more.">Meetings</a>
+  <li <%if (searchType.startsWith("transcript")){%>class="active"<%} %>><a href="<%=appPath%>/transcripts/" title="View and search Senate floor full text transcripts">Transcripts</a></li>	
+<li <%if (searchType.startsWith("action")){%>class="active"<%} %>><a href="<%=appPath%>/actions/" title="View and filter Floor Actions on Bills from the Floor of the Senate">Actions</a></li>
+  <li <%if (searchType.startsWith("vote")){%>class="active"<%} %>><a href="<%=appPath%>/votes" title="Recent committee and floor votes on Senate bills">Votes</a></li>
+<% if(searchType.matches("(sponsor|bill|calendar|meeting|transcript|action|vote).*?")) { term = ""; } %>
+<li class=""><a href="<%=appPath%>/senators">Sponsor</a></li>
+<li class=""><a href="<%=appPath%>/committees">Committee</a></li>
+            
+         
+            </ul>
+          
+            <div class='menu_search span12'>
+          <fieldset>
+          <div class="control-group">
+            <div class="controls docs-input-sizes">
+              <input type="text" placeholder="Search" class="span4">
+              <select name="type" class="span3">
+                <option value="">All Types</option>
+                <option value="bill">Bills (Senate &amp; Assembly)</option>
+                <option value="res">Resolutions</option>
+                <option value="transcript">Floor Transcripts</option>
+                <option value="meeting">Committee Meetings</option>
+                <option value="calendar">Floor &amp; Active Calendars</option>
+                <option value="action">Bill Actions</option>
+                <option value="vote">Floor &amp; Committee Votes</option>
+                </select>
+            </div>
           </div>
-          </div>
+      
+         
+        </fieldset>
+        </div>
+          </div><!--/.nav-collapse -->
+          
         </div>
       </div>
     </div>
-	<div class="container pagebox">
+
 	
+ 
+	<div class="container pagebox">
+
 	<!-- edit this xxx.jsp tag to load the other pages for now -->
 	
-	<jsp:include page="/mockups/templates/calendar.jsp" />
+	<jsp:include page="/mockups/templates/bill.jsp" />
 	
 	<div class=''><hr/></div>
 
@@ -139,14 +150,14 @@
 		<div class='span12'>
 		
 			<p>
-				<small><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img class="cc-logo" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/88x31.png" align='left' /></a>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img class="cc-logo" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/88x31.png" align='left' /></a>
 				This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.
 				
 				
 				Permissions beyond the scope of this license are available at <a cc="http://creativecommons.org/ns#" href="http://www.nysenate.gov/copyright-policy" rel="morePermissions">http://www.nysenate.gov/copyright-policy</a>.
 	 			The software and services provided under this site are offered under the BSD License and the GPL v3 License.
 	 		</p>
-		</small></div>
+		</div>
 	</div>
 </div>
 	</body>
