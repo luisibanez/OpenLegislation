@@ -94,7 +94,6 @@ Sponsor: <a class="sublink" href="/legislation/sponsor/SQUADRON">SQUADRON</a>
 <br />
 Relates to making the provisions governing liquor licenses consistent with respect to public interest factors. 
 </div>
-  <hr/>
 </div>
 <!-- 
 <div  class="result">
