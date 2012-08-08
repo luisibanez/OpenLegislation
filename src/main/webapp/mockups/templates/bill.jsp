@@ -24,13 +24,6 @@
 		  	<a>Comments</a>
 		  	<br><br>
 		  	<br>
-		<pre>asd
-		asdf
-		fddfg
-		
-		fdsdf
-		aas
-		</pre>
 		</div>	
 		<div class='span4'>
 		  	<b>Same as: </b> <a>Versions: S21-2011</a>
@@ -152,8 +145,8 @@ effective date.
 <h3>S35-2011 Bill</h3>
 
 <div class='row'>
-<div class='span9'>
-<pre class='bill_text'> S T A T E   O F   N E W   Y O R K
+<div class='span7'>
+<pre class='bill_text'  id="bill_head"> S T A T E   O F   N E W   Y O R K
  <br> 39--A<br> 2011-2012 Regular Sessions
  I N  SENATE
  (PREFILED)<br> January 5, 2011
@@ -224,8 +217,8 @@ effective date.
  effective date.
 </pre>
 </div>
-<div class='span3' id='table_of_contents'>
-<a href='#Section 1'>Section 1</a>
+<div class='span5' id='table_of_contents'>
+ <a href='#bill_head'>Head of bill</a><br/>
 </div>
 </div>	
 	<br>

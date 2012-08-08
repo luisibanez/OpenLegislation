@@ -1,3 +1,9 @@
+.control-group
+{
+	float:left;
+	margin-bottom: 100;
+}
+
 .nav {
   margin-left: 0;
   margin-bottom: 18px;
@@ -10,6 +16,10 @@
 .nav > li > a:hover {
   text-decoration: none;
   background-color: #eeeeee;
+}
+.nav > li > active {
+	text-decoration: none;
+	background-color: #eeeeee;
 }
 .nav > li > active > a {
 	text-decoration: none;
