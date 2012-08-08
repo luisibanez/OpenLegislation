@@ -72,7 +72,7 @@
 						<%}else{ %>
 							<li class=""><a href="<%=appPath%>/bills/" title="Browse and search Senate and Assembly bills by number, keyword, sponsor and more">Bills</a></li>
 						<%} %>
-						<li <%if (searchType.startsWith("calendar")){%>class="active"<%} %> ><a href="<%=appPath%>/calendars/" title="View recent and search floor calendars and active lists by number or date (i.e. 11/07/2009)">Calendars</a></li> 						
+						<li class="active" ><a href="<%=appPath%>/calendars/" title="View recent and search floor calendars and active lists by number or date (i.e. 11/07/2009)">Calendars</a></li> 						
 						<li <%if (searchType.startsWith("meeting")){%>class="active"<%} %> ><a href="<%=appPath%>/meetings/" title="View upcoming and recent committee meetings, and search by committee, chairperson, location, date (i.e. 11/07/2009) and more.">Meetings</a>
  			 			<li <%if (searchType.startsWith("transcript")){%>class="active"<%} %>><a href="<%=appPath%>/transcripts/"  title="View and search Senate floor full text transcripts">Transcripts</a></li>	 
 						<li <%if (searchType.startsWith("action")){%>class="active"<%} %>><a href="<%=appPath%>/actions/" title="View and filter Floor Actions on Bills from the Floor of the Senate">Actions</a></li>
@@ -81,13 +81,20 @@
 							<li class=""><a href="<%=appPath%>/senators">Sponsor</a></li>
 							<li class=""><a href="<%=appPath%>/committees">Committee</a></li>
 					</ul>
+					 <!-- <div style="position:relative;">
+					 <div style="position:absolute; bottom:0;">-->
+					 
+					
 					 <form method="get" action="<%=appPath%>/search/" class="navbar-search pull-left">
-            			<input type="text" id="txtSearchBox" placeholder="Search" class="search-query span2" name="search" value="<%=search%>" autocomplete="off">	
+            			<!-- <input type="text" id="txtSearchBox" placeholder="Search" class="search-query span2" name="search" value="<%=search%>" autocomplete="off">	
+						--><input type="search" id="test">
 						<input type="hidden" name="searchType" value="<%=searchType%>">	
 						<input type="submit" value="Search"/>
 						<a href="<%=appPath%>/advanced/">Advanced</a>
 						
           			</form>
+          			<!-- </div>
+ 					</div>-->
  					<div id="quickresult" class="quickresult-header"></div>
           </div>
           </div>
@@ -103,36 +110,37 @@
 	<div class=''><hr/></div>
 
 	<div id="footer" class='row'>
-		<div class='span4'>
+		<div class='span3'>
 			<h4>OpenLegislation</h4>
-			<h5>Bills</h5>
-			<h5>Calendars</h5>
-			<h5>Meetings</h5>
-			<h5>Transcripts</h5>
-			<h5>Actions</h5>
-			<h5>Votes</h5>
-			
+			<h5><a href="#">Bills</a></h5>
+			<h5><a href="#">Calendars</a></h5>
+			<h5><a href="#">Meetings</a></h5>
+			<h5><a href="#">Transcripts</a></h5>
+			<h5><a href="#">Actions</a></h5>
+			<h5><a href="#">Votes</a></h5>
+			<h5><a href="#">Sponsors</a></h5>
+			<h5><a href="#">Committees</a></h5>
 		
 		</div>
-		<div class='span4'>
+		<div class='span3'>
 			<h4>Connect</h4>
-			<h5>Comments</h5>
-			<h5>Feedback</h5>
-			<h5>Mobile Access</h5>
-			<h5>Developers</h5>
-			<h5>BillBuzz</h5>
+			<h5><a href="#">Comments</a></h5>
+			<h5><a href="#">Privacy</a></h5>
+			<h5><a href="#">BillBuzz</a></h5>
 		
 		</div>
-		<div class='span4'>
+		<div class='span3'>
 			<h4>Nysenate.gov</h4>
-			<h5>Senators</h5>
-			<h5>Committees</h5>
+			<h5><a href="#">Senators</a></h5>
+			<h5><a href="#">Committees</a></h5>
 		
 		</div>
-		<!--<div class='span3'>
-			
+		<div class='span3'>
+			<h5><a href="#">Feedback</a></h5>
+			<h5><a href="#">Mobile Access</a></h5>
+			<h5><a href="#">Developers</a></h5>
 		
-		</div>-->
+		</div>
 	</div>
 	<hr/>
 	<div class='row'>
