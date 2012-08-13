@@ -42,6 +42,7 @@
 		<link rel="stylesheet" type="text/css" media="print" href="<%=appPath%>/mockups/css/print.css">
 		
 		<script type="text/javascript" src="<%=appPath%>/mockups/js/jquery.js"></script>
+		<script type="text/javascript" src="<%=appPath%>/mockups/js/jfeed.js"></script>
 	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/bootstrap.js"></script>
 	 	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/app.js"></script>
 	 
@@ -154,11 +155,13 @@
 		
 			<p>
 				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img class="cc-logo" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/88x31.png" align='left' /></a>
-				This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.
+				<br><br>
+				<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</a>.
+				</p>
 				
-				
-				Permissions beyond the scope of this license are available at <a cc="http://creativecommons.org/ns#" href="http://www.nysenate.gov/copyright-policy" rel="morePermissions">http://www.nysenate.gov/copyright-policy</a>.
+				<p>Permissions beyond the scope of this license are available at <a cc="http://creativecommons.org/ns#" href="http://www.nysenate.gov/copyright-policy" rel="morePermissions">http://www.nysenate.gov/copyright-policy</a>.
 	 			The software and services provided under this site are offered under the BSD License and the GPL v3 License.
+	 			</p>
 	 		</p>
 		</div>
 	</div>

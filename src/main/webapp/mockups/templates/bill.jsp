@@ -17,11 +17,11 @@
 		  	<br><br>
 		  	<b>Jump To:</b>
 		  	<br>
-		  	<a>Memo</a>
+		  	<a href="#memo">Memo</a>
 		  	<br>
-		  	<a>Bill</a>
+		  	<a href="#bill_head bill">Bill</a>
 		  	<br>
-		  	<a>Comments</a>
+		  	<a href="#comments">Comments</a>
 		  	<br><br>
 		  	<br>
 		</div>	
