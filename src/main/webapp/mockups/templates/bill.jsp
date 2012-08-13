@@ -47,7 +47,7 @@
 
 <h3>S35-2011 Memo</h3>
 
-<pre class='memo_text'>
+<pre class='memo_text' id='memo'>
 BILL NUMBER:S39A
 
 TITLE OF BILL:
@@ -146,7 +146,7 @@ effective date.
 
 <div class='row'>
 <div class='span7'>
-<pre class='bill_text'  id="bill_head"> S T A T E   O F   N E W   Y O R K
+<pre class='bill_text'  id="bill_head bill"> S T A T E   O F   N E W   Y O R K
  <br> 39--A<br> 2011-2012 Regular Sessions
  I N  SENATE
  (PREFILED)<br> January 5, 2011
@@ -224,9 +224,9 @@ effective date.
 	<br>
 
 </div>
-<!-- 
+
 <div id="comments">
-	<p>
+<!-- 	<p>
 		<b>
 			*By contributing or voting you agree to the <a href="http://nysenate.gov/legal">Terms of Participation</a> and <a href="http://www.nysenate.gov/privacy-policy">Privacy Policy</a> and verify you are over 13.
 		</b>
@@ -257,5 +257,5 @@ effective date.
  		</script>
 		<noscript>Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
 		<a class="dsq-brlink" href="http://disqus.com">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
-	</div>-->
+-->
+	</div>

@@ -80,8 +80,8 @@
           <fieldset>
           <div class="control-group">
             <div class="controls docs-input-sizes">
-              <!-- <input type="text" placeholder="Search" class="span4">--->
-              <input type="search" id="test" value="Search">
+             <input type="search" placeholder="Search" class="span4">
+             <!--  <input type="search" id="test" value="Search">--->
               <select name="type" class="span3">
                 <option value="">All Types</option>
                 <option value="bill">Bills (Senate &amp; Assembly)</option>
@@ -111,7 +111,7 @@
 
 	<!-- edit this xxx.jsp tag to load the other pages for now -->
 	
-	<jsp:include page="/mockups/templates/bill.jsp" />
+	<jsp:include page="/mockups/templates/home.jsp" />
 	
 	<div class=''><hr/></div>
 
