@@ -160,7 +160,8 @@
 				</p>
 				
 				<p>Permissions beyond the scope of this license are available at <a cc="http://creativecommons.org/ns#" href="http://www.nysenate.gov/copyright-policy" rel="morePermissions">http://www.nysenate.gov/copyright-policy</a>.
-	 			The software and services provided under this site are offered under the BSD License and the GPL v3 License.
+	 			</p>
+	 			<p>The software and services provided under this site are offered under the BSD License and the GPL v3 License.
 	 			</p>
 	 		</p>
 		</div>

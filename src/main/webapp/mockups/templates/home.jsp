@@ -2,7 +2,7 @@
 document.write("test");
 jQuery.getFeed({
 	   //url: 'http://open.nysenate.gov/legislation/api/rss/search/otype%253Abill%2BAND%2B%2528year%253A2011%2BOR%2Bwhen%253A%255B1293840000281%2BTO%2B1356998399281%255D%2529%2BAND%2Bactive%253Atrue/'
-	   url: "http://www.engadget.com/rss.xml",
+	   url: "http://localhost:8080/mockups/templates/engadget_rss.xml",
 	   success: function(feed)
 	   {
 		   document.write("success");
