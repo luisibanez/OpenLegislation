@@ -31,7 +31,7 @@
 <html>
 	<head>
 		<title><%=title%></title>
-		
+
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
 		<meta name="apple-mobile-web-app-capable" content="YES"/>
 		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<%=appPath%>/feed" />
@@ -44,8 +44,21 @@
 		<script type="text/javascript" src="<%=appPath%>/mockups/js/jquery.js"></script>
 		<script type="text/javascript" src="<%=appPath%>/mockups/js/jfeed.js"></script>
 	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/bootstrap.js"></script>
-	 	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/app.js"></script>
-	 
+	 	<!-- <script type="text/javascript" src="<%=appPath%>/mockups/js/app.js"></script> -->
+	 	<script type="text/javascript">
+	 	 $(document).ready(function() {
+	 		console.log('started');
+			$.getFeed({
+				   //url: 'http://open.nysenate.gov/legislation/api/rss/search/otype%253Abill%2BAND%2B%2528year%253A2011%2BOR%2Bwhen%253A%255B1293840000281%2BTO%2B1356998399281%255D%2529%2BAND%2Bactive%253Atrue/'
+				   url: "<%=appPath%>/mockups/js/engadget_rss.xml",
+			   success: function(feed)
+			   {
+				   document.write("success");
+			     alert(feed.title);
+			   }
+			 });
+			});
+		</script>
 
 	</head>
 	<body>  
@@ -112,7 +125,7 @@
 
 	<!-- edit this xxx.jsp tag to load the other pages for now -->
 	
-	<jsp:include page="/mockups/templates/home.jsp" />
+	<jsp:include page="/mockups/templates/search.jsp" />
 	
 	<div class=''><hr/></div>
 
