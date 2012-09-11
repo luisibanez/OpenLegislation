@@ -1,5 +1,8 @@
 <div class="page-header">
     <h1>  S35-2011:<small> Lowers the annual candidate contribution limit from $150,000 to $75,000 </small></h1>
+    <div style="font-size: 24px;">
+   		<i class="icon-camera-retro"></i> icon-camera-retro
+    </div>
  </div>
   
 
@@ -17,7 +20,7 @@
 		  	<br><br>
 		  	<b>Jump To:</b>
 		  	<br>
-		  	<a href="#memo">Memo</a>
+		  	<a href="#memo" class='super_alert'>Memo</a>
 		  	<br>
 		  	<a href="#bill_head bill">Bill</a>
 		  	<br>
@@ -35,11 +38,16 @@
 		<div class='span12'>
 		  	<hr>
 			<h3>S35-2011 Actions</h3>
-			<ul>
-				<li>Jan 4, 2012: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</li>
-				<li>Apr 5, 2011: NOTICE OF COMMITTEE CONSIDERATION - REQUESTED</li>
-				<li>Jan 5, 2011: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</li>
-			</ul>
+			    <ul class="actions icons">
+			    	<li><i class="icon-legal green-icon"></i> Jan 4, 2012: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINES</li>
+				    <li><i class="icon-external-link green-icon"></i> Jan 4, 2012: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</li>
+				    <li><i class="icon-group "></i> Apr 5, 2011: NOTICE OF COMMITTEE CONSIDERATION - REQUESTED</li>
+				    <li><i class="icon-certificate gold-icon"></i>  Mar 14, 2011: PRINT NUMBER 39A</li>
+   				    <li><i class="icon-retweet "></i>  Mar 14, 2011: AMEND AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS</li>
+   				    <li><i class="icon-share-alt "></i> Jan 5, 2011: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</li>
+      				<li><i class="icon-group "></i> Jan 5, 2011: REFERRED TO ENVIRONMENTAL CONSERVATION</li>
+    			</ul>
+ 
 		<hr/>
 		</div>
 	</div>
@@ -145,7 +153,7 @@ effective date.
 
 <div class='row'>
 <div class='span7'>
-<pre class='bill_text'  id="bill_head bill"> S T A T E   O F   N E W   Y O R K
+<pre class='bill_text prettyprint linenums'  id="bill_head bill"> S T A T E   O F   N E W   Y O R K
  <br> 39--A<br> 2011-2012 Regular Sessions
  I N  SENATE
  (PREFILED)<br> January 5, 2011

@@ -1,5 +1,3 @@
-div,pre { word-break: break-all; word-wrap: break-word; }​
- 
 .nav {
   margin-left: 0;
   margin-bottom: 18px;
@@ -225,7 +223,7 @@ div,pre { word-break: break-all; word-wrap: break-word; }​
   background-color: #222222;
 }
 .btn-navbar:active, .btn-navbar.active {
-  background-color: #080808 \9;
+  background-color: #080808;
 }
 .btn-navbar .icon-bar {
   display: block;
@@ -284,11 +282,11 @@ div,pre { word-break: break-all; word-wrap: break-word; }​
 .navbar-form:after {
   clear: both;
 }
-.navbar-form input, .navbar-form select {
+/*.navbar-form input, .navbar-form select {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 0;
-}
+}*/
 .navbar-form .radio, .navbar-form .checkbox {
   margin-top: 5px;
 }
@@ -388,8 +386,7 @@ div,pre { word-break: break-all; word-wrap: break-word; }​
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #222222;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #dad7ce;
 }
 .navbar .divider-vertical {
   height: 60px;
@@ -460,7 +457,7 @@ div,pre { word-break: break-all; word-wrap: break-word; }​
 
 body {
 	/** background:url('../img/linen-lt.png') fixed; **/
-		background-color: #e1e1e1;
+		background-color: #598B9D;
 	
  }
 
@@ -480,6 +477,8 @@ body {
 #search_head{
 	margin-bottom:20px;
 }
+
+
 .menu_search{
 	margin:6px 0 0;	
 }
@@ -503,6 +502,43 @@ add{
 }
 .section_head add{ 
 		color:#333;		
-	
-	
+}
+
+
+.pagebox{
+	text-align:left;
+}
+
+ul.actions li,ul.actions{ 
+	padding:0; margin:0; list-style:none;
+}
+
+ 
+
+.super_alert{
+	color:#000;
+	background:#FFD62C;
+}
+
+.green-icon{
+	color:#58954e;
+}
+.red-icon{
+	color:#ad0000;
+}
+.gold-icon{
+	color:#e09c27;
+}
+@media (max-width: 480px) {
+	.pagebox{
+		padding-left:0px;
+		padding-right:0px;
+		margin:0;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	body {
+		background-color: #FFF;
+	}
 }

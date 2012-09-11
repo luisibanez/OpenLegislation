@@ -40,26 +40,12 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="<%=appPath%>/mockups/css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" media="screen" href="<%=appPath%>/mockups/css/style.css"/>
 		<link rel="stylesheet" type="text/css" media="print" href="<%=appPath%>/mockups/css/print.css">
+		<link rel="stylesheet" type="text/css" href="<%=appPath%>/mockups/css/font-awesome.css">
 		
 		<script type="text/javascript" src="<%=appPath%>/mockups/js/jquery.js"></script>
-		<script type="text/javascript" src="<%=appPath%>/mockups/js/jfeed.js"></script>
+		<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
 	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/bootstrap.js"></script>
-	 	<!-- <script type="text/javascript" src="<%=appPath%>/mockups/js/app.js"></script> -->
-	 	<script type="text/javascript">
-	 	 $(document).ready(function() {
-	 		console.log('started');
-			$.getFeed({
-				   //url: 'http://open.nysenate.gov/legislation/api/rss/search/otype%253Abill%2BAND%2B%2528year%253A2011%2BOR%2Bwhen%253A%255B1293840000281%2BTO%2B1356998399281%255D%2529%2BAND%2Bactive%253Atrue/'
-				   url: "<%=appPath%>/mockups/js/engadget_rss.xml",
-			   success: function(feed)
-			   {
-				   document.write("success");
-			     alert(feed.title);
-			   }
-			 });
-			});
-		</script>
-
+	 	<script type="text/javascript" src="<%=appPath%>/mockups/js/app.js"></script>
 	</head>
 	<body>  
 	 <div class="navbar navbar-fixed-top">
@@ -92,11 +78,10 @@
           
             <div class='menu_search span12'>
           <fieldset>
-          <div class="control-group">
+            <div class="control-group">
             <div class="controls docs-input-sizes">
-             <input type="search" placeholder="Search" class="span4">
-             <!--  <input type="search" id="test" value="Search">--->
-              <select name="type" class="span3">
+			<div class="input-append">
+				<input class="span4" id="appendedInputButton" placeholder="Search"  type="search"><select name="type" class="span3">
                 <option value="">All Types</option>
                 <option value="bill">Bills (Senate &amp; Assembly)</option>
                 <option value="res">Resolutions</option>
@@ -105,8 +90,13 @@
                 <option value="calendar">Floor &amp; Active Calendars</option>
                 <option value="action">Bill Actions</option>
                 <option value="vote">Floor &amp; Committee Votes</option>
-                </select>
-				<input type="submit" value="Search"/>
+                </select><button class="btn"  type="button">Go!</button>
+		  	</div>
+        
+             <!--  <input type="search"  class="span4">
+             <input type="search" id="test" value="Search">
+              
+				<input type="submit" value="Search"/>--->
             </div>
           </div>
       
@@ -125,7 +115,7 @@
 
 	<!-- edit this xxx.jsp tag to load the other pages for now -->
 	
-	<jsp:include page="/mockups/templates/search.jsp" />
+	<jsp:include page="/mockups/templates/bill.jsp" />
 	
 	<div class=''><hr/></div>
 
