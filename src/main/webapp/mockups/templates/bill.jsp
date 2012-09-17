@@ -1,14 +1,26 @@
-<div class="page-header">
+<div class="subnav" id="top">
+	<ul class="nav nav-pills">
+		<li class='title'>S35-2011</li>
+		<li><a href="#top">Bill Meta</a></li>
+		<li><a href="#actions">Actions</a></li>
+		<li><a href="#memo">Memo</a></li>
+		<li><a href="#bill_head bill">Bill</a></li>  			 
+	</ul>
+</div>
+
+<hr/>
+<div >
+
+<div class="page-header" >
     <h1>  S35-2011:<small> Lowers the annual candidate contribution limit from $150,000 to $75,000 </small></h1>
-    <div style="font-size: 24px;">
-   		<i class="icon-camera-retro"></i> icon-camera-retro
-    </div>
  </div>
+ 
   
+
 
 <div class="bill">
 <div class='row'>
-	<div class='billmeta'>
+	<div class='billmeta' >
 		<div class='span12'>
 		  	Lowers the annual candidate contribution limit from $150,000 to $75,000. <hr/>
 		</div>
@@ -17,32 +29,20 @@
 		  	<b>Committee:</b> <a href="/legislation/committee/ELECTIONS" class="sublink">ELECTIONS</a><br/>
 		  	<b>Law Section:</b> <a href="/legislation/search/?term=lawsection%3A%22Election+Law%22" class="sublink">Election Law</a><br/>
 		  	<b>Law:</b> Amd S14-114, El L
-		  	<br><br>
-		  	<b>Jump To:</b>
-		  	<br>
-		  	<a href="#memo" class='super_alert'>Memo</a>
-		  	<br>
-		  	<a href="#bill_head bill">Bill</a>
-		  	<br>
-		  	<a href="#comments">Comments</a>
-		  	<br><br>
-		  	<br>
-		</div>	
+		</div>
+ 
 		<div class='span4'>
 		  	<b>Same as: </b> <a>Versions: S21-2011</a>
-		  	<!-- <br /><br />
-		  	<a>Print HTML Page</a> / <a>Print Original Bill Format</a>
-		  	<br />
-		  	<a>ShareThis</a> / <a>Read or Leave Comments</a>-->
 		</div>
-		<div class='span12'>
+		<div class='span12' id="actions">
 		  	<hr>
 			<h3>S35-2011 Actions</h3>
+					 
 			    <ul class="actions icons">
-			    	<li><i class="icon-legal green-icon"></i> Jan 4, 2012: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINES</li>
-				    <li><i class="icon-external-link green-icon"></i> Jan 4, 2012: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</li>
+			    	<li><i class="icon-legal green-icon icon-large"></i><small>Jan 4, 2012:</small> REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINES </li>
 				    <li><i class="icon-group "></i> Apr 5, 2011: NOTICE OF COMMITTEE CONSIDERATION - REQUESTED</li>
-				    <li><i class="icon-certificate gold-icon"></i>  Mar 14, 2011: PRINT NUMBER 39A</li>
+				    <li><i class="icon-remove red-icon"></i>Mar 29, 2011: DEFEATED IN COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</li>
+				    <li><i class="icon-file"></i>  Mar 14, 2011: PRINT NUMBER 39A</li>
    				    <li><i class="icon-retweet "></i>  Mar 14, 2011: AMEND AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS</li>
    				    <li><i class="icon-share-alt "></i> Jan 5, 2011: REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS</li>
       				<li><i class="icon-group "></i> Jan 5, 2011: REFERRED TO ENVIRONMENTAL CONSERVATION</li>
